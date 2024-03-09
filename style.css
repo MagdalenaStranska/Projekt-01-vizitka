@@ -2,6 +2,153 @@
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
 
+
+
+body {
+  color: #2F3C4C;
+  background-color: #ffffff;
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  margin: 0 auto;
+  max-width: 70em;
+  }
+
+h1,
+h2,
+h3,
+a {
+  color: #333;
+}
+
+h1,
+h2,
+h3 {
+   font-style: italic;
+}
+
 h1 {
-    background-color: aquamarine;
+  font-size: 85px;
+  text-align: center;
+  color: white;
+  margin: 0;
+  text-shadow: 0 5px 10px rgba(0, 0, 0, 0.9)
+}
+
+h2 {
+  font-size: 48px;
+  text-align: center;
+  margin-top: 0;
+}
+
+h3 {
+  font-size: 24px;
+  margin-top: 36px;
+}
+
+a {
+  font-style: italic;
+  color: #35729b;
+}
+
+.omne,
+.koralkovani,
+.foceni {
+  background-color: #d8cfcc
+}
+
+
+.siti,
+.tvoreni,
+.kontakt {
+  background-color: #b4a8a4;
+}
+
+
+.paticka {
+  background-color: #2F3C4C;
+  color: white;
+  text-align: center;
+  padding: 20px 0px 20px 0px;    
+}
+
+.foto-omne {
+  width: 230px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 60px;
+  margin-bottom: 30px;
+  }
+
+.siti img {
+    width: 30%;
+    border: 2px dotted black;
+    border-radius: 10px;
+  }
+
+.koralkovani img {
+  width: 30%;
+  border: 2px dotted black;
+  border-radius: 10px;
+}
+
+.foceni img {
+  width: 30%;
+  border: 2px dotted black;
+  border-radius: 10px;
+}
+
+
+.tvoreni img {
+  width: 48%;
+  border: 2px dotted black;
+  border-radius: 30px 30px 30px 30px;
+  margin: 10px 10px 10px 2px;
+}
+
+  .foto-kontakt {
+    width: 350px;
+    border-radius: 50px 0px 50px 50px;
+    float: left;
+    margin: 0 30px 30px 0;
+ }
+
+  section {
+    padding: 50px 15%;
+    overflow: auto;
+ }
+
+ 
+.hlavicka {
+  padding: 150px 30px;
+  background-image: url(obrazky/hlavicka.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+}
+
+
+.menu {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #2F3C4C;
+}
+
+  
+.menu li {
+  display: inline-block;
+}
+
+.menu a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: 20px 30px;
+}
+
+.menu a:hover,
+.menu a:focus,
+.menu a:active {
+  background-color: #35729b;
 }
