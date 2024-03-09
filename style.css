@@ -100,11 +100,10 @@ a {
 
 
 .tvoreni img {
-  width: 48%;
+  width: 45%;
   border: 2px dotted black;
   border-radius: 30px 30px 30px 30px;
-  margin: 10px 10px 10px 2px;
-}
+  }
 
   .foto-kontakt {
     width: 350px;
